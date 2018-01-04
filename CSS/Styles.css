@@ -368,7 +368,7 @@ li.dropdown {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .topmenu {display: none;}
   .topicon  a4.icon {
 	
@@ -379,7 +379,7 @@ li.dropdown {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .topicon.responsive {position: relative;}
   .topicon.responsive .icon {
 	    overflow: hidden;
