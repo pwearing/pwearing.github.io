@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="CSS/Styles.css" rel="stylesheet" type="text/css">
+<title>js</title>
+<script src="JS/javas.js"></script>
+</head>
+
+<body>
+
+
+<header class="topmenu" id="menu">
+
+	<li><img src="Assets/Picture1.png" "width:1%" style="height:1%"></li>
+	<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Paladin</a>
+    <div class="dropdown-content">
+      <a href="aboutus.html">about us</a>
+      <a href="contactus.html">contact us</a>
+      <a href="findus.html">find us</a>
+  <li><a href="homepage.html">Home</a></li>
+	<li><a href="products.html">products</a></li>	
+  <li><a href="report.html">report</a></li>
+	
+	
+  
+	  
+    </div>
+	<li><button onclick="document.getElementById('id01').style.display='block'">Login</button></li>
+	
+<div id="id01" class="modal">
+ 
+
+  
+  <form class="modal-content animate" action="/action_page.php">
+    
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password  </b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+	  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+
+    
+      
+    
+  </form>
+</div>
+  </li>
+  
+	<div class="itemh">  
+			<form action="#" method="post" class="last">
+                
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="display" value="1" />
+                    <input type="submit" name="submit" value="View your cart" class="button" />
+                
+            </form>
+		</div>
+	</header>
+
+<header class="topicon">
+<a4 href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="phone()">&#9776;</a4>
+</header>
+<section id="slideshow">
+
+	<div class="slideshow-container">
+  <div class="mySlides left">
+    
+    <img src="Assets/img1.png" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides left">
+    
+    <img src="Assets/img2.png" style="width:100%">
+    
+  </div>
+	<div class="mySlides left">
+    
+    <img src="Assets/img3.png" style="width:100%">
+    
+  </div>
+	
+</section>
+	
+	
+	<section id="About">
+	
+	<div class="item2" >
+                       
+                    <h3>SALE</h3>
+                    <div id="itemh" draggable="true" ondragstart="drag(event)" id="drag1">
+		
+			<div class="snipcart-item block">
+				<div class="snipcart-thumb">
+					<img src="Assets/h5.png" alt=" " class="img-responsive" /></a>
+					<p>motorbike helmet (Red)</p>
+					<h4>£60.00 </h4>
+				</div>
+	<div class="snipcart-details">
+	<form action="#" method="post">
+	
+	<input type="hidden" name="cmd" value="_cart" />
+	<input type="hidden" name="add" value="1" />
+	<input type="hidden" name="business" value=" " />
+	<input type="hidden" name="item_name" value="motorbike helmet (Red)" />
+	<input type="hidden" name="amount" value="60.00" />
+	
+	<input type="hidden" name="currency_code" value="GBP" />
+	<input type="hidden" name="return" value=" " />
+	<input type="hidden" name="cancel_return" value=" " />
+	<input type="submit" name="submit" value="Add to cart" class="button" />
+				
+											</form>
+										</div>
+									</div>
+                </div>
+		<div id="itemh" draggable="true" ondragstart="drag(event)" id="drag1">
+		
+			<div class="snipcart-item block">
+				<div class="snipcart-thumb">
+					<img src="Assets/m5.png" alt=" " class="img-responsive" /></a>
+					<p>motocross helmet (black)</p>
+					<h4>£75.00 </h4>
+				</div>
+	<div class="snipcart-details">
+	<form action="#" method="post">
+	
+	<input type="hidden" name="cmd" value="_cart" />
+	<input type="hidden" name="add" value="1" />
+	<input type="hidden" name="business" value=" " />
+	<input type="hidden" name="item_name" value="motocross helmet (black)" />
+	<input type="hidden" name="amount" value="75.00" />
+	
+	<input type="hidden" name="currency_code" value="GBP" />
+	<input type="hidden" name="return" value=" " />
+	<input type="hidden" name="cancel_return" value=" " />
+	<input type="submit" name="submit" value="Add to cart" class="button" />
+				
+											</form>
+										</div>
+									</div>
+		</div>
+	</section>
+	
+	
+	<section id="About">
+	<div class="item" >
+                        
+                    <h3> test</h3>
+                    <p>test test test test test test test test test test test test</p>
+                </div>
+	</section>
+	
+	
+	<section id="About">
+	<div class="item" >
+                        
+                    <h3> test</h3>
+                    <p> test test test test test test test test test test</p>
+                </div>
+	</section>
+	</body>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/minicart.js"></script>
+<script>
+		paypal.minicart.render();
+
+		paypal.minicart.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+
+			// Count the number of each item in the cart
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 1) {
+				alert('The minimum order quantity is 1. Please add more to your shopping cart before checking out');
+				evt.preventDefault();
+			}
+		});
+
+	</script>
