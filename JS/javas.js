@@ -6,7 +6,7 @@ window.onload = function () {
 	drop(ev)
 	myMap()
 	phone()
-	swapStyleSheet(sheet);
+	swapStyleSheet(sheet)
 };
 var myIndex = 0;
 
