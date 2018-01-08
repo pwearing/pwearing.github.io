@@ -52,3 +52,6 @@ function phone() {
         x.className = "topicon";
     }
 }
+function swapStyleSheet(sheet){
+	document.getElementById('pagestyle').setAttribute('href', sheet);
+}
